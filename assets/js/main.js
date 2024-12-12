@@ -23,9 +23,21 @@ document.getElementById("app").innerHTML = `
 <main id="cards">
 ${createCard("11/12", "Quarta-Feira",
 createGame("atletico", "19:00", "bota"))}
-${createCard("15/12", "Domingo",
-    createGame("corinthians", "16:00", "palmeiras"))}
-${createCard("11/12", "Quarta-Feira",
+
+${createCard("15/12", "Segunda-Feira",
+    createGame("corinthians", "21:00", "palmeiras"))}
+
+${createCard("10/12", "Terça-Feira",
     createGame("vasco", "19:00", "bahia"))}
+
+${createCard("14/12", "Quinta-Feira",
+    createGame("flamengo", "17:30", "cruzeiro"))}
+
+${createCard("11/12", "Sexta-Feira",
+    createGame("gremio", "20:00", "santos"))}
+
+${createCard("11/12", "Quarta-Feira",
+    createGame("sp", "21:30", "inter"))}
+
 </main>
 `;
